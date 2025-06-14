@@ -1,0 +1,19 @@
+In Alien Invasion, the player controls a rocket ship that appears at the bottom center of the screen.
+The player can move the ship right and left using the arrow keys and shoot bullets using the spacebar.
+When the game begins, a fleet of aliens fills the sky and moves across and down the screen.
+THe player shoots and dsestroys the aliens.
+If the player destroys all the aliens, a new fleet appears that moves faser than the previous fleet.
+If any alien hits the player's sip or reaches the bottom of the screen, the player loses a ship.
+If the player loses three ships, the game ends.
+
+Development phases
+
+Phase 1: 
+    Make a ship that cam move left and right and fire bullets. 
+    Prevent the ship from flying off the screen. 
+    Limit how many bullets can be fired and delete bullets that exit the screen.
+
+Phase 2:
+    Add an alien to the top-left corner of the screen, with spacing around it, and multiply so a row of aleins is created until we have a fleet.
+    Make the fleet move sideways and down until the entire fleet is shot down, and alien hits the ship, or an alien reaches the ground. If the entire fleet is shot down, we'll create a new fleet. If an alien hits the ship or the ground, we'll destroy the ship and create a new fleet.
+    Limit the number of ships the player can use, and end the game when the player has used up the alloted number of ships.
